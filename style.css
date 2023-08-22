@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'khazad';
+  src: url('fonts/KhazadDum3D.ttf') format('truetype');
+}
+
 body, html{
   margin:0;
   user-select:none;
@@ -18,7 +23,7 @@ body, html{
   align-items: center;
 }
 .winner{
-  font-family: DotGothic16;
+  font-family: khazad;
   font-weight: bold;
   color: #ff5959;
 
@@ -35,20 +40,7 @@ body, html{
   
 }
 
-.playername{
-  /* font-weight: bolder;
-  color:darkcyan;
 
-  text-shadow:
-    -1px -1px 0 #fff,
-    0 -1px 0 #fff,
-    1px -1px 0 #fff,
-    1px 0 0 #fff,
-    1px 1px 0 #fff,
-    0 1px 0 #fff,
-    -1px 1px 0 #fff,
-    -1px 0 0 #fff; */
-}
 
 @media(orientation: landscape){
    .diceparent{
@@ -70,10 +62,7 @@ body, html{
       justify-content: center;
       align-items: center;
    }
-   .playername{
-      /* font-size: 30px;
-      font-family:DotGothic16; */
-   }
+   
    #playbtn{
     width:20%;
     object-fit: contain;
@@ -115,8 +104,8 @@ body, html{
     object-fit: contain;
    }
    .playername{
-    /* font-size: 100px;
-    font-family:DotGothic16; */
+    width:40%;
+    object-fit: contain;
    }
    #playbtn{
     width:40%;
