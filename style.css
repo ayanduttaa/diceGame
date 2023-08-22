@@ -62,8 +62,8 @@ body, html{
       font-family:DotGothic16;
    }
    #playbtn{
-    height:83.5px;
-    width:219px;
+    width:20%;
+    object-fit: contain;
   }
 }
 
@@ -106,8 +106,8 @@ body, html{
     font-family:DotGothic16;
    }
    #playbtn{
-    height:167px;
-    width:438px;
+    width:40%;
+    object-fit: contain;
    }
    .btntxt{
     font-size: 50px;
