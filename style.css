@@ -13,7 +13,7 @@ body, html{
   align-items: center;
 }
 
-@media(min-width:641px){
+@media(min-width:2001px){
    .diceparent{
       display:flex;
    }
@@ -35,7 +35,7 @@ body, html{
    }
 }
 
-@media(max-width:640px){
+@media(max-width:2000px){
   .diceparent{
       display:flex;
       flex-direction: column;
